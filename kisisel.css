@@ -1,0 +1,87 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Pacifico&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Gantari:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+
+body{
+    margin:0px;
+    background-color: #303842;
+    text-decoration:none;
+}
+
+header{
+    background-color:#20262E;
+    color:#fff;
+    height:60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    font-family: 'Gantari';
+    font-weight: 1000;
+    color: #fff;
+    font-size: 30px;
+}
+
+.navbar{
+    font-family: "Gantari";
+}
+
+.navbar_elements{
+    display: inline-block;
+    margin-left:10px;
+    margin-right: 10px;
+    color: #fff;
+}
+
+.contact{
+    background-color: #271ac0;
+    color: #fff;
+    font-size: 20px;
+    font-family: Pacifico;
+    width:95px;
+    height:35px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration-color:#271ac0;
+}
+
+#contain{
+    margin-top:10px;
+}
+
+#row1{
+    height:310px;
+}
+
+#subheader1{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#subheader1:hover{
+    background-color: red;
+}
+
+#subheader2{
+    display: flex;
+    align-items: center;
+    font-family: "Gantari";
+    color: white;
+    text-indent: 50px;
+    text-align:start;
+    letter-spacing: 3px;
+}
+
+#row2{
+    background-color:#20262E;
+}
+
